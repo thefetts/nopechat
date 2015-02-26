@@ -1,20 +1,18 @@
 $(document).ready(function() {
-	$('input[type="text"]').focus();
+	var message = $('#message');
+	message.focus();
+
 	setInterval(function() {
-		if($('input[type="text"]').val()) {
-			$('input[type="text"]').val('');
+		if(message.val()) {
+			message.val('');
 			$('.success').fadeIn(300).fadeOut(300);
 		}
-	}, 1000)
+	}, 1000);
 
-	$('.title').text('');
-	var string = 'nopechat';
+	var title = 'nopechat';
 	var count = 0;
-	var interval = setInterval(function() {
-		count++;
-		$('.title').text(string.substring(0,count-3));
-		if(count > 13) {
-			count = 0;
-		}
+	setInterval(function() {
+		$('.title').text(title.substring(0,count++-3));
+		if(count > 13) count = 0;
 	}, 200);
 });

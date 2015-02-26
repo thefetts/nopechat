@@ -3,14 +3,6 @@ body {
 	font-family: Helvetica;
 }
 
-input[type="text"] {
-	width: 300px;
-}
-
-h1 {
-	font-size: 48px;
-}
-
 .success {
 	background-color: lightgreen;
 	margin: 0 auto;
@@ -28,4 +20,11 @@ h1 {
 
 .title {
 	height: 30px;
+	font-size: 48px;
+	padding-bottom: 20px;
+}
+
+#message {
+	margin-bottom: 20px;
+	width: 300px;
 }
