@@ -22,7 +22,7 @@ body > * {
 #success {
   background-color: lightgreen;
   margin: 0 auto;
-  width: 200px;
+  width: 300px;
   height: 25px;
   padding-top: 3px;
   border-radius: 5px;
@@ -36,6 +36,7 @@ body > * {
 
 #success img {
   width: 15px;
+  margin-right: 5px;
 }
 
 @keyframes fadeout {
