@@ -1,0 +1,22 @@
+{
+  "name": "nopechat",
+  "version": "1.0.0",
+  "description": "nopechat",
+  "main": "script.js",
+  "scripts": {
+    "test": "testcafe chrome tests.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefetts/nopechat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thefetts/nopechat/issues"
+  },
+  "homepage": "https://github.com/thefetts/nopechat#readme",
+  "devDependencies": {
+    "testcafe": "^1.7.0"
+  }
+}
