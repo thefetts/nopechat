@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/thefetts/nopechat#readme",
   "devDependencies": {
-    "testcafe": "^1.7.0"
+    "testcafe": "^1.17.1"
   }
 }
